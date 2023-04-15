@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup form</title>
+    <STYLE>
+               body{
+  background-image: url("images/WhatsApp\ Image\ 2022-12-29\ at\ 7.46.42\ PM.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  width:100%;
+    height:100%;
+
+}
+#signup .box{
+    border:4px solid rgba(255, 0, 0, 0.247);
+    padding:56px 30px;
+    margin: 23px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    /* bottom:20px; */
+
+ }
+    
+    </STYLE>
+    
+</head>
+<center>
+  
+ <h2 style="color:#661709b7;">WANT TO SIGN UP?</h2>
+ <div id="signup">
+    <form class="box">
+       
+        <LABEL>FullName:<BR/>
+            <input type="text" name="username" size="15" maxlength="30" placeholder="enter name" required="required"/></LABEL><BR/>
+        
+        <LABEL>Password:<BR/>
+            <input type="password" name="password" size="17" maxlength="29" placeholder="password please"required="required"/>
+        </LABEL><BR/>
+        <LABEL>Email:<BR/>
+            <input type="email" name="email" size="20" maxlength="34" placeholder="enter email"required="required"/>
+        </LABEL><BR/>
+
+       <p> Gender:
+        
+        <input type="radio" name="Gender" size="15" value="MAN" /> Man
+        <input type="radio" name="Gender" size="15" value="WOMAN" /> Woman
+        <input type="radio" name="Gender" size="15" value="other" />other
+       </p>
+       <p>what's your age?
+        <select name="AGE">
+            <option value =" "></option>
+            <option value ="15-30">15-20</option>
+            <option value ="31-45">31-45</option>
+            <option value ="46-60">46-60</option></select>
+       </p>
+       <p>Are you located in Pakistan?
+        <input type="checkbox" name="yes/no"  value="YES" />yes
+        <input type="checkbox" name="yes/no"  value="NO" />no
+       </p>
+<p>how did  you hear about us:
+    <select name="referrer">
+        <option value =" "></option>
+        <option value ="GOOGLE">Google</option>
+        <option value ="friend">Friend</option>
+        <option value ="advert">Advert</option>
+        <option value ="other">other</option> </select></p>
+       <p >Give your comments about our page:</p>
+<textarea name="comments" cols="20" rows="4">Enter your comments</textarea>
+<input type="submit" name="submit" value="submit"/>
+<p>OR</p>
+
+<p>continue by <a href ="https://www.google.com/gmail/about/" target="_blank">Gmail</a> , <a href ="https://www.facebook.com/" target="_blank">Facebook</a></p>
+
+</form></center></div>
+</html></body>
